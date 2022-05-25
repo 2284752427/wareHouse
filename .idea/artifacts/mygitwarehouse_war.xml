@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mygitwarehouse:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mygitwarehouse</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="stu-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="mygitwarehouse:war exploded" />
+    </root>
+  </artifact>
+</component>
